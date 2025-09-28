@@ -3,7 +3,7 @@
 
 
 
-💰 Financial Risk Analytics
+**💰 Financial Risk Analytics**
 📈 A comprehensive analytical project focused on evaluating Credit Risk and Market Risk using machine learning and financial data modeling techniques.
 ________________________________________
 **📚 Table of Contents**
@@ -22,27 +22,27 @@ o	Market Risk Analysis
 •	Contributors
 •	License
 ________________________________________
-📌 Overview
+**📌 Overview**
 This project explores how machine learning and statistical techniques can be applied to assess and manage financial risk. It is divided into two major domains:
 •	Credit Risk: Assessing the probability of default by borrowers.
 •	Market Risk: Analyzing how market variables like stock prices and volatility can affect portfolio value.
 The models are built on real-world inspired datasets and processed using Python-based data science tools.
 ________________________________________
-🎯 Objectives
+**🎯 Objectives**
 •	Identify key financial features that indicate creditworthiness.
 •	Develop models to predict loan default.
 •	Analyze market volatility and risk exposure.
 •	Compare various machine learning models for classification accuracy.
 •	Provide actionable insights for financial institutions and investors.
 ________________________________________
-🗃️ Data Sources
+**🗃️ Data Sources**
 The following datasets are used in the project:
 File	Description
 Credit Risk Dataset.xlsx	Contains financial metrics of borrowers including default status.
 Market Risk Dataset.csv	Historical market data including stock prices, volatility indicators.
 FRA_DataDictionary.xlsx	Description of all the variables used in the datasets.
 ________________________________________
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 •	Languages: Python 3
 •	Libraries:
 o	Data Handling: pandas, numpy
@@ -51,7 +51,7 @@ o	Machine Learning: scikit-learn, xgboost
 o	Time Series Analysis: statsmodels
 o	Jupyter Notebooks for development and analysis
 ________________________________________
-📁 Project Structure
+**📁 Project Structure**
 Financial-Risk-Analytics/
 │
 ├── FRA Project - Final.ipynb          # Main analysis notebook
@@ -60,7 +60,7 @@ Financial-Risk-Analytics/
 ├── FRA_DataDictionary.xlsx            # Variable descriptions
 └── README.md                          # Project documentation
 ________________________________________
-🔍 Methodologies
+**🔍 Methodologies**
 📌 Credit Risk Modeling
 •	Goal: Predict whether a borrower will default.
 •	Techniques Used:
@@ -85,13 +85,13 @@ o	Time Series Analysis
 o	Rolling statistics
 o	Visualization of trends and anomalies
 ________________________________________
-📈 Results & Insights
+**📈 Results & Insights**
 •	Identified key indicators that highly influence credit default (e.g., debt ratio, credit history length).
 •	Random Forest and XGBoost outperformed logistic regression in credit risk classification.
 •	Detected periods of high volatility in market risk dataset corresponding to historical downturns.
 •	Value at Risk (VaR) provided quantifiable insights into possible portfolio losses.
 ________________________________________
-🚀 How to Run
+**🚀 How to Run**
 1.	Clone the repository
 2.	git clone https://github.com/gangalapudijyothi7-boop/Financial-Risk-Analytics.git
 3.	cd Financial-Risk-Analytics
@@ -103,7 +103,7 @@ It's recommended to use a virtual environment:
 7.	jupyter notebook
 8.	Open the FRA Project - Final.ipynb and run the cells sequentially.
 ________________________________________
-📊 Visualizations
+**📊 Visualizations**
 Some visualizations used in this project:
 •	📉 Stock price trends & volatility bands
 •	📊 Feature importance from tree-based models
@@ -111,13 +111,8 @@ Some visualizations used in this project:
 •	📌 Correlation heatmaps
 You can add actual plots or GIFs here for better presentation in the real README.
 ________________________________________
-🔄 Potential Improvements
+**🔄 Potential Improvements**
 •	Integrate external macroeconomic indicators (GDP, interest rates, inflation).
 •	Apply deep learning techniques (LSTM for time series, neural networks for classification).
 •	Deploy models using Flask or Streamlit for interactive dashboards.
 •	Perform real-time risk simulation using Monte Carlo methods.
-________________________________________
-👩‍💻 Contributors
-•	Jyothi Gangalapudi - GitHub Profile
-Feel free to contribute by creating issues or submitting pull requests.
-
